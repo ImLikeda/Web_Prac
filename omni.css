@@ -1,0 +1,110 @@
+*{
+    font-family: 'Noto Sans KR', sans-serif;
+    list-style: none;
+    text-decoration: none; 
+    border-collapse: collapse;
+    margin: 0px;
+    padding: 0px;
+    color: black;
+}
+
+/* 헤더 */
+.header{
+    background-color: #a8a8a8;
+    display: grid;
+    height: 120px;
+    grid-template-columns: 120px 1fr;
+}
+
+.mainmenu > ul {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    align-items: center;
+    height: 120px;
+}
+
+/* JS 마우스 올려놓았을때만 켜지기
+.mainmenu > ul > h2 {
+    box-sizing: border-box;
+    border: 5px solid white;
+    border-radius: 10px;
+    padding: 20px;
+}*/
+
+.mainmenu > ul > h2 > li {
+    display: flex;
+    justify-content: center;
+    color:white;
+}
+
+/*메인 사진 리스트*/
+
+.main_0 {
+    display: grid;
+    padding: 50px;
+/*    grid-template-columns: ;*/
+    background-color: blanchedalmond;
+    grid-template-columns: 7fr 3fr;
+}
+
+.main_0 > .picturebox {
+    display: grid;
+}
+
+.main_0 > .loginbox {
+    display: grid;
+    grid-template-rows: 3fr 5fr 2fr;
+    background-color: white;
+}
+
+.main_0 > .loginbox > .loginlogotab {
+    display: grid;
+    background-color: purple;
+    text-align: center;
+    align-items: center;
+}
+
+.main_0 > .loginbox > .logintab {
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+}
+
+.main_0 > .loginbox > .logintab > .idtab {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+}
+
+.main_0 > .loginbox > .logintab > .passwordtab {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+}
+
+.main_0 > .loginbox > .registertab {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    text-align: center;
+    font-size: 12px;
+    background-color: olive;
+    align-items: center;
+}
+
+/* footer */
+footer {
+    display: flex;
+    background: #a8a8a8;
+    padding: 30px;
+}
+
+footer > div:first-child{
+    flex: 3;
+    text-align: center;
+    color: white;
+}
+
+footer > div:last-child{
+    flex: 9;
+    text-align: center;
+    color: white;
+}
