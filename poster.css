@@ -1,0 +1,74 @@
+*{
+    font-family: 'Noto Sans KR', sans-serif;
+    list-style: none;
+    text-decoration: none; 
+    border-collapse: collapse;
+    margin: 0px;
+    padding: 0px;
+    color: black;
+}
+
+/* 헤더 */
+.header{
+    background-color: #a8a8a8;
+    display: grid;
+    height: 120px;
+    grid-template-columns: 120px 1fr;
+}
+
+.mainmenu > ul {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    align-items: center;
+    height: 120px;
+}
+
+/* JS 마우스 올려놓았을때만 켜지기
+.mainmenu > ul > h2 {
+    box-sizing: border-box;
+    border: 5px solid white;
+    border-radius: 10px;
+    padding: 20px;
+}*/
+
+.mainmenu > ul > h2 > li {
+    display: flex;
+    justify-content: center;
+}
+
+.mainmenu > ul > h2 > li > a {
+    text-decoration: none;
+    color: white;
+}
+
+.pcontainer {
+    display: grid;
+}
+
+.pcontainer > .ul {
+    display: inline-block;
+}
+
+.pcontainer > .ul > .li {
+    display: inline-block;
+}
+
+
+/* footer */
+footer {
+    display: flex;
+    background: #a8a8a8;
+    padding: 30px;
+}
+
+footer > div:first-child{
+    flex: 3;
+    text-align: center;
+    color: white;
+}
+
+footer > div:last-child{
+    flex: 9;
+    text-align: center;
+    color: white;
+}
