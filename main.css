@@ -1,0 +1,44 @@
+*{
+    font-family: 'Noto Sans KR', sans-serif;
+    list-style: none;
+    text-decoration: none; 
+    border-collapse: collapse;
+    margin: 0px;
+    padding: 0px;
+    color: black;
+}
+
+.firstview {
+    display: flex;
+    height: 100%;
+    flex-direction: row;
+}
+
+.firstview > .mainl {
+    display: flex;
+    width: 30%;
+    background-color: #E8D4D1;
+}
+
+.firstview > .mainl > .menulogo {
+    display: flex;
+    align-items: center;
+}
+
+.firstview > .mainr {
+    display: flex;
+    flex-direction: column;
+    width: 70%;
+}
+
+.firstview > .mainr > .mainup {
+    display: flex;
+    height: 60%;
+    background-color: #FFEDE6;
+}
+
+.firstview > .mainr > .maindown {
+    display: flex;
+    height: 40%;
+    background-color: #FFE6FF;
+}
